@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alura.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alura_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alura_main.iml" group="com.alura" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.alura_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.alura_test.iml" group="com.alura" />
+    </modules>
+  </component>
+</project>
