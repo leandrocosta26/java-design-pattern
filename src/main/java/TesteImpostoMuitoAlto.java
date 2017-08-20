@@ -1,7 +1,7 @@
-import models.orcamento.ISS;
-import models.orcamento.ImpostoAlto;
-import models.orcamento.Item;
-import models.orcamento.Orcamento;
+import cenarios.orcamento.ISS;
+import cenarios.orcamento.ImpostoAlto;
+import cenarios.orcamento.Item;
+import cenarios.orcamento.Orcamento;
 
 public class TesteImpostoMuitoAlto {
     public static void main(String[] args) {

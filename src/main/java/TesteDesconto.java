@@ -1,6 +1,6 @@
-import models.desconto.*;
-import models.orcamento.Item;
-import models.orcamento.Orcamento;
+import cenarios.desconto.*;
+import cenarios.orcamento.Item;
+import cenarios.orcamento.Orcamento;
 
 public class TesteDesconto {
 
