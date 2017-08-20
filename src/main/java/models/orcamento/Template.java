@@ -1,6 +1,13 @@
 package models.orcamento;
 
-public abstract class Template implements Impostos {
+public abstract class Template extends Impostos {
+
+    public Template() {
+    }
+
+    public Template(Impostos impostos) {
+        super(impostos);
+    }
 
     @Override
     public final double calcular(Orcamento orcamento) {

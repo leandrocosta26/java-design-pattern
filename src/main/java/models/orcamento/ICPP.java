@@ -2,6 +2,9 @@ package models.orcamento;
 
 public class ICPP extends Template {
 
+    public ICPP() {
+    }
+
     @Override
     protected boolean deveAplicarMaximaTaxacao(Orcamento orcamento) {
         return orcamento.getValor() > 500;
