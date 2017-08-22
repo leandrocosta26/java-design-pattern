@@ -12,11 +12,6 @@ public class Reproved implements State {
     }
 
     @Override
-    public void workInProgress(Orcamento orcamento) {
-        throw new RuntimeException("Orcamento is reproved");
-    }
-
-    @Override
     public void approve(Orcamento orcamento) {
         throw new RuntimeException("Orcamento is reproved");
     }

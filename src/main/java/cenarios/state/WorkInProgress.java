@@ -12,11 +12,6 @@ public class WorkInProgress implements State {
     }
 
     @Override
-    public void workInProgress(Orcamento orcamento) {
-        throw new RuntimeException("State is work in progress");
-    }
-
-    @Override
     public void approve(Orcamento orcamento) {
         orcamento.setState(new Approved());
     }

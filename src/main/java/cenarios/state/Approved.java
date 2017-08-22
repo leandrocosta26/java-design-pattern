@@ -13,11 +13,6 @@ public class Approved implements State {
     }
 
     @Override
-    public void workInProgress(Orcamento orcamento) {
-        throw new RuntimeException("Not change state to work in progress");
-    }
-
-    @Override
     public void approve(Orcamento orcamento) {
         throw new RuntimeException("The state is approved");
     }

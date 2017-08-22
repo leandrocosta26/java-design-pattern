@@ -12,11 +12,6 @@ public class Finish implements State {
     }
 
     @Override
-    public void workInProgress(Orcamento orcamento) {
-        throw new RuntimeException("The state is finish");
-    }
-
-    @Override
     public void approve(Orcamento orcamento) {
         throw new RuntimeException("The state is finish");
     }
